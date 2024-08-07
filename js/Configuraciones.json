@@ -33,11 +33,6 @@
     ],
     "footer": [
       {
-        "nombre": "términos condiciones",
-        "enlace": "#TerminosCondiciones",
-        "claseDeCss": "footer-item"
-      },
-      {
         "nombre": "Facebook",
         "enlace": "https://facebook.com",
         "claseDeCss": "mx-2 fab fa-facebook-f"
