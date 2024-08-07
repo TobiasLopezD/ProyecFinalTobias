@@ -12,7 +12,7 @@ export function MostrarHTML() {
 }
 
 // 1-Mav
-function CrearNavbar() {
+const CrearNavbar = () => {
     let html = `
 
     <a class="navbar-brand" href="#">
@@ -42,7 +42,7 @@ function CrearNavbar() {
 }
 
 // 2-Footer
-function CrearFooter() {
+const CrearFooter = () => {
     let html = `
     <h3>Derechos de Autor de NoticiasTecnológicas</h3>
     <p>Sigue a NoticiasTecnológicas</p>
@@ -60,7 +60,7 @@ function CrearFooter() {
 }
 
 // Main Secciones 1 noticias
-function CrearTarjetaNoticias() {
+const CrearTarjetaNoticias = () => {
     let html = `
     
     <section class=" banner  col-lg-4 ">
@@ -79,9 +79,9 @@ function CrearTarjetaNoticias() {
     return html  
 }
 
-function CrearParrafo() {
-    let texto = "Genesis"
-    let html = ` <p>${texto} </p>`
 
-    return html
+function Calcular(num1, num2) {
+  
+  return num1 + num2
 }
+
