@@ -43,7 +43,7 @@ export const ObtenerDatosAPIRick = async () => {
             return data.results
         } else {
 
-            console.log("Error al consultar el API")
+            console.log("Error al consultar el API"+response.status)
 
         }
        
