@@ -1,4 +1,5 @@
 import { MostrarHTML } from "/js/Global.js";
+import { MostrarCard } from "/js/Card.js";
 import { ObtenerDatosConfiguracion, ObtenerDatosAPIRick } from "/js/Servicios_Config.js";
 import { MostrarDatosEnConsola } from "/js/ConsultarJson.js";
 import { Mostrarbanners } from "/js/Banners.js";
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', ev => {
     Mostrartabla ()
     ObtenerDatosConfiguracion ()
     ObtenerDatosAPIRick ()
+    MostrarCard ()
 })
 
 
