@@ -8,7 +8,7 @@ export function MostrarHTML() {
     let navbar = document.getElementById ("Navbar").innerHTML = CrearNavbar ();
     let footer = document.getElementById ("Footer").innerHTML = CrearFooter();
     let noticias = document.getElementById ("Noticias").innerHTML = CrearTarjetaNoticias();
-    let parrafo = document.getElementById ("parrafo").innerHTML = CrearParrafo();
+    
 }
 
 // 1-Mav
@@ -80,8 +80,4 @@ const CrearTarjetaNoticias = () => {
 }
 
 
-function Calcular(num1, num2) {
-  
-  return num1 + num2
-}
 
