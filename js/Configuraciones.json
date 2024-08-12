@@ -2,7 +2,7 @@
     "navbar": [
       {
         "nombre": "Inicio",
-        "enlace": "Incio.html",
+        "enlace": "Inicio.html",
         "activo": true,
         "claseDeCss": "nav-item nav-link"
       },

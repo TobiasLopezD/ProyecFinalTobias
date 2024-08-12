@@ -9,18 +9,18 @@ let CamposFormulario =[
     {
         name:"userId", 
         type:"number",
-        mensaje: "Ingres su ID"
+        mensaje: "Ingrese su ID"
     },
     {
         name:"title",
         type:"text",
-        mensaje: "Ingres su Titulo"
+        mensaje: "Ingrese su Titulo"
 
     },
     {
         name:"body",
         type:"text",
-         mensaje: "Ingres su comentario"
+         mensaje: "Ingrese su comentario"
     },
     
 
@@ -58,17 +58,17 @@ export const MostrarFormulario = async () => {
     // Iterar sobre los datos para generar los campos del formulario
     datos.forEach(element => {
         html += `
-            <div class="form-group">
+            <div class="form-group " >
                 <label for="${element.name}">${element.mensaje}</label>
                 <input type="${element.type}" name="${element.name}" id="${element.name}" class="form-control" placeholder="${element.mensaje}" aria-describedby="helpId-${element.name}">
-                <small id="helpId-${element.name}" class="text-muted">Help text</small>
+                <small id="helpId-${element.name}" class="text-muted" >informacion brindada</small>
             </div>
         `;
     });
 
     // Agregar el botón de enviar
     html += `
-        <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+        <button type="submit" class="btn btn-danger btn-lg btn-block">Enviar</button>
     `;
 
 

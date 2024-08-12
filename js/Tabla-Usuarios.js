@@ -56,8 +56,8 @@ const CrearTabla = (datos) => {
           <td>${element.title}</td>
           <td>${element.body}</td>
           <td>
-           <div class="btn-group" role="group" style="gap: 5px">
-              <a class="btn btn-primary btn-sm"><i class="fas fa-eye"></i> Ver</a>
+           <div class="btn-group" role="group" style="gap: 5px" >
+              <a class="btn btn-primary btn-sm"><i class="fas fa-eye" ></i> Ver</a>
               <a class="btn btn-warning btn-sm"><i class="fas fa-edit"></i> Editar</a>
               <a class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> Eliminar</a>
             </div>
